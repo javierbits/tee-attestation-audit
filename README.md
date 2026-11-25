@@ -9,7 +9,7 @@ No API keys are required for either run.
 
 ## Results
 
-### NEAR AI Cloud (`runs/2026-11-24T1755Z/`, exit 0)
+### NEAR AI Cloud (`runs/2026-11-24T1748Z/`, exit 0)
 
 | Check | Result |
 |---|---|
@@ -30,7 +30,7 @@ attests the same image and signer on a different boot/instance, which is the
 documented shared-signing-key footgun, not a verification failure.
 
 Artifacts: `report.json` (904 KB raw report), `summary.json`, `nras.json`,
-`ita_token.json`, `ita_jwks.json`, `2026-11-24T1755Z.log`.
+`ita_token.json`, `ita_jwks.json`, `2026-11-24T1748Z.log`.
 
 ### Solana chat (`solana/`)
 
@@ -99,6 +99,6 @@ was rejected.
 verify_near.py            NEAR end-to-end verifier + tamper suite
 verify_tinfoil.mjs        Offline Tinfoil/Sigstore/SEV-SNP bundle verifier
 analyze_solana.py         Extract the SEV-SNP report_data and test nonce binding
-runs/2026-11-24T1755Z/    Canonical NEAR run and artifacts
+runs/2026-11-24T1748Z/    Canonical NEAR run and artifacts
 solana/                   Live chat and Nito attestation bundles + verifications
 ```
