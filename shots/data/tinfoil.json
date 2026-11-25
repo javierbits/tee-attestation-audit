@@ -1,0 +1,25 @@
+{
+  "securityVerified": true,
+  "configRepo": "tinfoilsh/confidential-model-router",
+  "enclaveHost": "inference.tinfoil.sh",
+  "releaseTag": "v0.0.179",
+  "releaseDigest": "63ccf36e517f064725749c9feaf5c0521f4a4e8603398db9d7877f357757dfbc",
+  "codeFingerprint": "eb59905fbbb06279ebfd1d894c44591a69503c1c60a0fbd5ad59902a7af14fda9bca6221db7202b1ca23f9fdaf76008c",
+  "steps": {
+    "fetchDigest": {
+      "status": "success"
+    },
+    "verifyCode": {
+      "status": "success"
+    },
+    "verifyEnclave": {
+      "status": "success"
+    },
+    "compareMeasurements": {
+      "status": "success"
+    },
+    "verifyCertificate": {
+      "status": "success"
+    }
+  }
+}

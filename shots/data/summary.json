@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-11-24T17:48:26Z",
+  "nonce": "3dfff4824f23eb98ce8a52898339394db9898307c1a17323ebc5e062ee44fa5a",
+  "ok": true,
+  "gateway": {
+    "tcb_status": "UpToDate",
+    "debug_mode": false,
+    "nonce_echoed": true,
+    "report_data_binds_nonce_and_signer": true,
+    "tls_fingerprint_matches_connection": true,
+    "config_measurement_matches": true,
+    "rtmr3_matches_event_log": true
+  },
+  "models": {
+    "model_candidates": 4,
+    "unique_signing_addresses": 1,
+    "signing_algorithms": [
+      "ecdsa"
+    ],
+    "unique_measured_configurations": 3,
+    "signing_addresses": [
+      "0x3b753b4406613c5e70ae640508632b600424fa0c"
+    ],
+    "app_compose_sha256": [
+      "d7871cce53c04f1ceae14ec277e2c33b83d275ce0ee8158bac3362113d67f19b",
+      "e4b83d924284eece9b972d8e18bd88dac4dd529031b00311ef5044eaa60ba8d9",
+      "fb81c6f2c1eae762ece8912e1f50e80697964cc93a112da03834369fa1ab5b0b"
+    ]
+  },
+  "nras": [
+    {
+      "candidate_index": 0,
+      "ok": true
+    },
+    {
+      "candidate_index": 1,
+      "ok": true
+    },
+    {
+      "candidate_index": 2,
+      "ok": true
+    },
+    {
+      "candidate_index": 3,
+      "ok": true
+    }
+  ],
+  "ita": {
+    "signature_valid": true,
+    "expired": false,
+    "cross_checks": {
+      "caller_nonce_matches": true,
+      "signer_matches": true,
+      "signing_algo_matches": true,
+      "mrtd_matches_quote": true,
+      "mrseam_matches_quote": true,
+      "mrconfigid_matches_quote": true,
+      "report_data_matches_quote": false,
+      "rtmr3_matches_quote": false,
+      "same_quote": false,
+      "attester_tcb_status": "UpToDate",
+      "debuggable": false,
+      "attester_type": "TDX"
+    }
+  },
+  "tamper": [
+    {
+      "mutation": "change the nonce by one hex character",
+      "caught": true
+    },
+    {
+      "mutation": "flip one hex character inside the TDX quote",
+      "caught": true
+    },
+    {
+      "mutation": "append a space to app_compose",
+      "caught": true
+    },
+    {
+      "mutation": "flip one hex character in an event payload",
+      "caught": true
+    },
+    {
+      "mutation": "claim the report came over example.com's TLS channel",
+      "caught": true
+    }
+  ]
+}

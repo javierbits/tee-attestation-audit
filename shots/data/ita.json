@@ -1,0 +1,14 @@
+{
+  "caller_nonce_matches": true,
+  "signer_matches": true,
+  "signing_algo_matches": true,
+  "mrtd_matches_quote": true,
+  "mrseam_matches_quote": true,
+  "mrconfigid_matches_quote": true,
+  "report_data_matches_quote": false,
+  "rtmr3_matches_quote": false,
+  "same_quote": false,
+  "attester_tcb_status": "UpToDate",
+  "debuggable": false,
+  "attester_type": "TDX"
+}

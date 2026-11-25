@@ -1,0 +1,12 @@
+{
+  "source": "solana/chat-attestation.json",
+  "model": "deepseek/deepseek-v4.1-flash:encrypted",
+  "envelope_nonce": "b55c48d9a7a3ade9812e3b1fbd5e0333f0a3417db841f8a6a5fa807b4579d746",
+  "bundle_domain": "inference.tinfoil.sh",
+  "bundle_digest": "63ccf36e517f064725749c9feaf5c0521f4a4e8603398db9d7877f357757dfbc",
+  "report_data_halves": {
+    "tls_key_fingerprint": "901136ba338c1a4f64673c7582ed1ad08cc5d51fdf9fecffdb2299d629439926",
+    "hpke_public_key": "a34169cc57538f3c856a0fff8a650fea5f651fe95d7d018ca9cd111c873ccb6f"
+  },
+  "envelope_nonce_in_signed_report": false
+}
