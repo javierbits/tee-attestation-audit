@@ -1,0 +1,24 @@
+{
+  "lockfileVersion": 2,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "dependencies": {
+        "@tinfoilsh/verifier": "1.4.0",
+      },
+    },
+  },
+  "packages": {
+    "@freedomofpress/crypto-browser": ["@freedomofpress/crypto-browser@0.3.0", "", { "dependencies": { "@noble/curves": "^2.4.0" } }, "sha512-Mkx0syUO1mBZE8Xrq35NpGgjrUooKWJ98Lq3b1V6Km8GE61DEgBc6H8ffzxji6SwSav0hYbQALK8+brXFBjYwQ=="],
+
+    "@freedomofpress/sigstore-browser": ["@freedomofpress/sigstore-browser@0.3.1", "", { "dependencies": { "@freedomofpress/crypto-browser": "^0.3.0", "@freedomofpress/tuf-browser": "^0.3.0" } }, "sha512-ziCCsB3f8B+s2+thRfeVdnntb7LV+Kel9oti+4SJxAPJ0dwkOUUf75ILl089Gby+T3hR4qTrnS10mlIn9H4E6A=="],
+
+    "@freedomofpress/tuf-browser": ["@freedomofpress/tuf-browser@0.3.0", "", { "dependencies": { "@freedomofpress/crypto-browser": "^0.3.0" } }, "sha512-t4Ck3sOkFLfnqqxO2BNmsOcMkMqjaYDilcn0mPJvPQY/NSRe9YV3UcUHGfP6kuRVlXHIJkUTa43A0kwduCGd2Q=="],
+
+    "@noble/curves": ["@noble/curves@2.4.0", "", { "dependencies": { "@noble/hashes": "2.4.0" } }, "sha512-P4/62zrgfH33CneE3Dn4WhJVA22YUU0eR51wKIan4NVRvwsA0YnPTwWGpNbpuacSujmSFLvyzpyuR30+fbq2Ew=="],
+
+    "@noble/hashes": ["@noble/hashes@2.4.0", "", {}, "sha512-X5XaVWZIBCT7HHZGm5I7ZQXDwLG+bGXuSrMQAW+7Zvl87h1kmc1ZB1VSRJcpUfoUrGQp4Fkoxm5kZ+Ms+aW+eA=="],
+
+    "@tinfoilsh/verifier": ["@tinfoilsh/verifier@1.4.0", "", { "dependencies": { "@freedomofpress/crypto-browser": "^0.3.0", "@freedomofpress/sigstore-browser": "^0.3.0", "@freedomofpress/tuf-browser": "^0.3.0" } }, "sha512-L4M/PE9GXkJMUCdySAit033EzhKJpjUphzhq5NNkeoqho4mpNfbzscQYRuRLCkNMbMxDorbrtTKLDAioQDfJCQ=="],
+  }
+}

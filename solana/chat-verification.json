@@ -1,0 +1,67 @@
+{
+  "source": "solana/chat-attestation.json",
+  "startedAt": "2026-11-24T17:45:22.857Z",
+  "finishedAt": "2026-11-24T17:45:22.944Z",
+  "verified": true,
+  "result": {
+    "measurement": {
+      "type": "https://tinfoil.sh/predicate/sev-snp-guest/v2",
+      "registers": [
+        "eb59905fbbb06279ebfd1d894c44591a69503c1c60a0fbd5ad59902a7af14fda9bca6221db7202b1ca23f9fdaf76008c"
+      ]
+    },
+    "tlsPublicKeyFingerprint": "901136ba338c1a4f64673c7582ed1ad08cc5d51fdf9fecffdb2299d629439926",
+    "hpkePublicKey": "a34169cc57538f3c856a0fff8a650fea5f651fe95d7d018ca9cd111c873ccb6f"
+  },
+  "document": {
+    "schemaVersion": 1,
+    "configRepo": "tinfoilsh/confidential-model-router",
+    "enclaveHost": "inference.tinfoil.sh",
+    "releaseTag": "v0.0.179",
+    "releaseDigest": "63ccf36e517f064725749c9feaf5c0521f4a4e8603398db9d7877f357757dfbc",
+    "codeMeasurement": {
+      "type": "https://tinfoil.sh/predicate/snp-tdx-multiplatform/v1",
+      "registers": [
+        "eb59905fbbb06279ebfd1d894c44591a69503c1c60a0fbd5ad59902a7af14fda9bca6221db7202b1ca23f9fdaf76008c"
+      ]
+    },
+    "enclaveMeasurement": {
+      "measurement": {
+        "type": "https://tinfoil.sh/predicate/sev-snp-guest/v2",
+        "registers": [
+          "eb59905fbbb06279ebfd1d894c44591a69503c1c60a0fbd5ad59902a7af14fda9bca6221db7202b1ca23f9fdaf76008c"
+        ]
+      },
+      "tlsPublicKeyFingerprint": "901136ba338c1a4f64673c7582ed1ad08cc5d51fdf9fecffdb2299d629439926",
+      "hpkePublicKey": "a34169cc57538f3c856a0fff8a650fea5f651fe95d7d018ca9cd111c873ccb6f"
+    },
+    "tlsPublicKey": "901136ba338c1a4f64673c7582ed1ad08cc5d51fdf9fecffdb2299d629439926",
+    "hpkePublicKey": "a34169cc57538f3c856a0fff8a650fea5f651fe95d7d018ca9cd111c873ccb6f",
+    "codeFingerprint": "eb59905fbbb06279ebfd1d894c44591a69503c1c60a0fbd5ad59902a7af14fda9bca6221db7202b1ca23f9fdaf76008c",
+    "enclaveFingerprint": "eb59905fbbb06279ebfd1d894c44591a69503c1c60a0fbd5ad59902a7af14fda9bca6221db7202b1ca23f9fdaf76008c",
+    "selectedRouterEndpoint": "inference.tinfoil.sh",
+    "securityVerified": true,
+    "verifier": {
+      "name": "@tinfoilsh/verifier",
+      "version": "1.4.0"
+    },
+    "verifiedAt": "2026-11-24T17:45:22.943Z",
+    "steps": {
+      "fetchDigest": {
+        "status": "success"
+      },
+      "verifyCode": {
+        "status": "success"
+      },
+      "verifyEnclave": {
+        "status": "success"
+      },
+      "compareMeasurements": {
+        "status": "success"
+      },
+      "verifyCertificate": {
+        "status": "success"
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "source": "runs/nito-attestation.json",
+  "startedAt": "2026-11-24T17:45:27.520Z",
+  "finishedAt": "2026-11-24T17:45:27.555Z",
+  "verified": true,
+  "result": {
+    "measurement": {
+      "type": "https://tinfoil.sh/predicate/sev-snp-guest/v2",
+      "registers": [
+        "eb59905fbbb06279ebfd1d894c44591a69503c1c60a0fbd5ad59902a7af14fda9bca6221db7202b1ca23f9fdaf76008c"
+      ]
+    },
+    "tlsPublicKeyFingerprint": "0ae851edac7f5a960ca69a6abf0f903867daa8b318d383a37b810cf396079279",
+    "hpkePublicKey": "374b31c3c1dfc8d615e3ffc973bd4c1d255eedb77bdfb20fae14610a38535c73"
+  },
+  "document": {
+    "schemaVersion": 1,
+    "configRepo": "tinfoilsh/confidential-model-router",
+    "enclaveHost": "router-0.tinfoil.sh",
+    "releaseTag": "v0.0.179",
+    "releaseDigest": "63ccf36e517f064725749c9feaf5c0521f4a4e8603398db9d7877f357757dfbc",
+    "codeMeasurement": {
+      "type": "https://tinfoil.sh/predicate/snp-tdx-multiplatform/v1",
+      "registers": [
+        "eb59905fbbb06279ebfd1d894c44591a69503c1c60a0fbd5ad59902a7af14fda9bca6221db7202b1ca23f9fdaf76008c"
+      ]
+    },
+    "enclaveMeasurement": {
+      "measurement": {
+        "type": "https://tinfoil.sh/predicate/sev-snp-guest/v2",
+        "registers": [
+          "eb59905fbbb06279ebfd1d894c44591a69503c1c60a0fbd5ad59902a7af14fda9bca6221db7202b1ca23f9fdaf76008c"
+        ]
+      },
+      "tlsPublicKeyFingerprint": "0ae851edac7f5a960ca69a6abf0f903867daa8b318d383a37b810cf396079279",
+      "hpkePublicKey": "374b31c3c1dfc8d615e3ffc973bd4c1d255eedb77bdfb20fae14610a38535c73"
+    },
+    "tlsPublicKey": "0ae851edac7f5a960ca69a6abf0f903867daa8b318d383a37b810cf396079279",
+    "hpkePublicKey": "374b31c3c1dfc8d615e3ffc973bd4c1d255eedb77bdfb20fae14610a38535c73",
+    "codeFingerprint": "eb59905fbbb06279ebfd1d894c44591a69503c1c60a0fbd5ad59902a7af14fda9bca6221db7202b1ca23f9fdaf76008c",
+    "enclaveFingerprint": "eb59905fbbb06279ebfd1d894c44591a69503c1c60a0fbd5ad59902a7af14fda9bca6221db7202b1ca23f9fdaf76008c",
+    "selectedRouterEndpoint": "router-0.tinfoil.sh",
+    "securityVerified": true,
+    "verifier": {
+      "name": "@tinfoilsh/verifier",
+      "version": "1.4.0"
+    },
+    "verifiedAt": "2026-11-24T17:45:27.555Z",
+    "steps": {
+      "fetchDigest": {
+        "status": "success"
+      },
+      "verifyCode": {
+        "status": "success"
+      },
+      "verifyEnclave": {
+        "status": "success"
+      },
+      "compareMeasurements": {
+        "status": "success"
+      },
+      "verifyCertificate": {
+        "status": "success"
+      }
+    }
+  }
+}

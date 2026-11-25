@@ -1,0 +1,20 @@
+[1/6] requesting attestation report for z-ai/glm-5.3-flash with a fresh nonce
+      saved report.json (4a2fc2132f65973e...)
+[2/6] verifying gateway quote and every model candidate with dcap-qvl
+      4 candidates -> 3 measured configurations, 1 signing key(s)
+[3/6] sending GPU evidence to NVIDIA NRAS
+      candidate 0: overall verdict = True
+      candidate 1: overall verdict = True
+      candidate 2: overall verdict = True
+      candidate 3: overall verdict = True
+[4/6] fetching an Intel Trust Authority token for the same nonce
+      Intel token signature valid; TCB status = UpToDate
+[5/6] re-running the checks on tampered evidence
+      change the nonce by one hex character: caught=True (True)
+      flip one hex character inside the TDX quote: caught=True (ValueError: Failed to get collateral: Failed to extract certificates from PEM ch)
+      append a space to app_compose: caught=True (True)
+      flip one hex character in an event payload: caught=True (True)
+      claim the report came over example.com's TLS channel: caught=True (True)
+[6/6] writing summary.json
+      ALL CHECKS PASSED: True
+      artifacts in runs/2026-11-24T1755Z

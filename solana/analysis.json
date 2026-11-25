@@ -1,0 +1,36 @@
+[
+  {
+    "source": "solana/chat-attestation.json",
+    "model": "deepseek/deepseek-v4.1-flash:encrypted",
+    "envelope_nonce": "b55c48d9a7a3ade9812e3b1fbd5e0333f0a3417db841f8a6a5fa807b4579d746",
+    "proof_format": "attestation-evidence-v1",
+    "bundle_digest": "63ccf36e517f064725749c9feaf5c0521f4a4e8603398db9d7877f357757dfbc",
+    "bundle_domain": "inference.tinfoil.sh",
+    "report_format": "https://tinfoil.sh/predicate/sev-snp-guest/v2",
+    "report_bytes": 1184,
+    "report_data_hex": "901136ba338c1a4f64673c7582ed1ad08cc5d51fdf9fecffdb2299d629439926a34169cc57538f3c856a0fff8a650fea5f651fe95d7d018ca9cd111c873ccb6f",
+    "report_data_halves": {
+      "tls_key_fingerprint": "901136ba338c1a4f64673c7582ed1ad08cc5d51fdf9fecffdb2299d629439926",
+      "hpke_public_key": "a34169cc57538f3c856a0fff8a650fea5f651fe95d7d018ca9cd111c873ccb6f"
+    },
+    "envelope_nonce_in_signed_report": false,
+    "envelope_nonce_equals_report_data_prefix": false
+  },
+  {
+    "source": "solana/nito-attestation.json",
+    "model": "deepseek/deepseek-v4.1-flash:confidential",
+    "envelope_nonce": "86bb0114913d33f7420f85182a748818e7861cc9a6a178287eba243fabb61082",
+    "proof_format": "attestation-evidence-v1",
+    "bundle_digest": "63ccf36e517f064725749c9feaf5c0521f4a4e8603398db9d7877f357757dfbc",
+    "bundle_domain": "router-0.tinfoil.sh",
+    "report_format": "https://tinfoil.sh/predicate/sev-snp-guest/v2",
+    "report_bytes": 1184,
+    "report_data_hex": "0ae851edac7f5a960ca69a6abf0f903867daa8b318d383a37b810cf396079279374b31c3c1dfc8d615e3ffc973bd4c1d255eedb77bdfb20fae14610a38535c73",
+    "report_data_halves": {
+      "tls_key_fingerprint": "0ae851edac7f5a960ca69a6abf0f903867daa8b318d383a37b810cf396079279",
+      "hpke_public_key": "374b31c3c1dfc8d615e3ffc973bd4c1d255eedb77bdfb20fae14610a38535c73"
+    },
+    "envelope_nonce_in_signed_report": false,
+    "envelope_nonce_equals_report_data_prefix": false
+  }
+]

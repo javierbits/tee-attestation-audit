@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@tinfoilsh/verifier": "1.4.0"
+  }
+}

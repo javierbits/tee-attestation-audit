@@ -1,0 +1,263 @@
+{
+  "generated_at": "2026-11-24T17:48:26Z",
+  "model": "z-ai/glm-5.3-flash",
+  "endpoint": "https://cloud-api.near.ai/v1/attestation/report",
+  "nonce": "3dfff4824f23eb98ce8a52898339394db9898307c1a17323ebc5e062ee44fa5a",
+  "checks": {
+    "gateway": {
+      "app_id": "f550fdfb4eb8ad787c1bcd423f091cbb4a4431ae",
+      "signing_algo": "ecdsa",
+      "signing_address": "0xb98a789cdc4817275f5155593ba73ef2a957e779",
+      "tcb_status": "UpToDate",
+      "advisory_ids": [],
+      "debug_mode": false,
+      "nonce_echoed": true,
+      "report_data_binds_nonce_and_signer": true,
+      "tls_fingerprint_matches_connection": true,
+      "app_compose_sha256": "a1c3d2e1455ea32d3434722f8867398a5e85e0dbd441f81e552a81641a09c424",
+      "config_measurement_matches": true,
+      "rtmr3_matches_event_log": true,
+      "quote": {
+        "tee_tcb_svn": "09030800000000000000000000000000",
+        "mr_seam": "2d2de102461684f14c8d0984a09d895e3e9e15944ce020a03b977e1f114d5e1ed32ef666a47fd19a5851b3800eda3afa",
+        "mr_signer_seam": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "seam_attributes": "0000000000000000",
+        "td_attributes": "0000001000000000",
+        "xfam": "e702060000000000",
+        "mr_td": "7fe60787222bd394cb516abca2435f22f035ab2cc9c0a4b4b3b148e46297f3d931a237b72f359052c6e657d8c1409173",
+        "mr_config_id": "01a1c3d2e1455ea32d3434722f8867398a5e85e0dbd441f81e552a81641a09c424000000000000000000000000000000",
+        "mr_owner": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "mr_owner_config": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "rt_mr0": "d090162bff4b1d1dc74dc59dc548838efc4b811b173da8536efa8e2a9c045da70ee092301293ad90afebee448bcd0211",
+        "rt_mr1": "4ae609807c765916a31d724786ed74bcb97e168a9d937b04936aeef2015c907eba5ac352c6bcd749c246fd62ffb659ec",
+        "rt_mr2": "764489f277a8540189761e72b4238ba36d4d647e11bd958d8ab5522af2a4867b0ff63e06b0c4967f1857236244040a5d",
+        "rt_mr3": "576972b7b5590e60c43b4c993b2a3f813edff5541662f0147d186e4393072797900041d4325997732e57f4d5607db57e",
+        "report_data": "573ac99c056c17a173d626fc7bb211bd07ae78eb79380a9faa155548ba72c9f93dfff4824f23eb98ce8a52898339394db9898307c1a17323ebc5e062ee44fa5a"
+      }
+    },
+    "models": [
+      {
+        "app_id": "2c0a0c96cb6dbd659bf1446e2f3fce58172ff91b",
+        "signing_algo": "ecdsa",
+        "signing_address": "0x3b753b4406613c5e70ae640508632b600424fa0c",
+        "tcb_status": "UpToDate",
+        "advisory_ids": [],
+        "debug_mode": false,
+        "nonce_echoed": true,
+        "report_data_binds_nonce_and_signer": true,
+        "tls_fingerprint_matches_connection": false,
+        "app_compose_sha256": "fb81c6f2c1eae762ece8912e1f50e80697964cc93a112da03834369fa1ab5b0b",
+        "config_measurement_matches": true,
+        "rtmr3_matches_event_log": true,
+        "quote": {
+          "tee_tcb_svn": "0b010400000000000000000000000000",
+          "mr_seam": "7bf063280e94fb051f5dd7b1fc59ce9aac42bb961df8d44b709c9b0ff87a7b4df648657ba6d1189589feab1d5a3c9a9d",
+          "mr_signer_seam": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "seam_attributes": "0000000000000000",
+          "td_attributes": "0000001000000000",
+          "xfam": "e702060000000000",
+          "mr_td": "e107136c99ae1745ab299e9462927890b7b1c984d5ef53fa5830584ad4246db663fdf96563b913e9e2471906b26f7aae",
+          "mr_config_id": "01fb81c6f2c1eae762ece8912e1f50e80697964cc93a112da03834369fa1ab5b0b000000000000000000000000000000",
+          "mr_owner": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "mr_owner_config": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "rt_mr0": "bc122d143ab768565ba5c3774ff5f03a63c89a4df7c1f5ea38d3bd173409d14f8cbdcc36d40e703cccb996a9d9687590",
+          "rt_mr1": "786417fa26b5d90d1289025506055e511ff09fd608f4727bb3cf159279a52af23117b6248024d0b186aceabebf6f86ec",
+          "rt_mr2": "41800152afda682372d33b484e357002e2b179f64b7882e0f0529ad2373ad93898a3b4d3ffb9a433f406b986d4f4f291",
+          "rt_mr3": "8d21721fd1dc8ba276ae849489b26e340377673d27193d9d27bdde868b8982000532d202815cdc367df6fdb78399dbf8",
+          "report_data": "93ad0179322c3b13a028a4ee9bee395f5e025f8ad24588d0940a000af2281f883dfff4824f23eb98ce8a52898339394db9898307c1a17323ebc5e062ee44fa5a"
+        },
+        "model_name": "z-ai/glm-5.3-flash"
+      },
+      {
+        "app_id": "2c0a0c96cb6dbd659bf1446e2f3fce58172ff91b",
+        "signing_algo": "ecdsa",
+        "signing_address": "0x3b753b4406613c5e70ae640508632b600424fa0c",
+        "tcb_status": "UpToDate",
+        "advisory_ids": [],
+        "debug_mode": false,
+        "nonce_echoed": true,
+        "report_data_binds_nonce_and_signer": true,
+        "tls_fingerprint_matches_connection": false,
+        "app_compose_sha256": "d7871cce53c04f1ceae14ec277e2c33b83d275ce0ee8158bac3362113d67f19b",
+        "config_measurement_matches": true,
+        "rtmr3_matches_event_log": true,
+        "quote": {
+          "tee_tcb_svn": "0b010400000000000000000000000000",
+          "mr_seam": "7bf063280e94fb051f5dd7b1fc59ce9aac42bb961df8d44b709c9b0ff87a7b4df648657ba6d1189589feab1d5a3c9a9d",
+          "mr_signer_seam": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "seam_attributes": "0000000000000000",
+          "td_attributes": "0000001000000000",
+          "xfam": "e702060000000000",
+          "mr_td": "e107136c99ae1745ab299e9462927890b7b1c984d5ef53fa5830584ad4246db663fdf96563b913e9e2471906b26f7aae",
+          "mr_config_id": "01d7871cce53c04f1ceae14ec277e2c33b83d275ce0ee8158bac3362113d67f19b000000000000000000000000000000",
+          "mr_owner": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "mr_owner_config": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "rt_mr0": "bc122d143ab768565ba5c3774ff5f03a63c89a4df7c1f5ea38d3bd173409d14f8cbdcc36d40e703cccb996a9d9687590",
+          "rt_mr1": "786417fa26b5d90d1289025506055e511ff09fd608f4727bb3cf159279a52af23117b6248024d0b186aceabebf6f86ec",
+          "rt_mr2": "41800152afda682372d33b484e357002e2b179f64b7882e0f0529ad2373ad93898a3b4d3ffb9a433f406b986d4f4f291",
+          "rt_mr3": "b63d3093024d8efbeb84760085e1bdfc3056855e7bceb725c16c328f0453424ffd3ecb2c9611c4dc3b9ab3babc9c906c",
+          "report_data": "2d07949bd17789e3610f0d62580990554943e1d050c30b49de35fb6525abfa953dfff4824f23eb98ce8a52898339394db9898307c1a17323ebc5e062ee44fa5a"
+        },
+        "model_name": "z-ai/glm-5.3-flash"
+      },
+      {
+        "app_id": "2c0a0c96cb6dbd659bf1446e2f3fce58172ff91b",
+        "signing_algo": "ecdsa",
+        "signing_address": "0x3b753b4406613c5e70ae640508632b600424fa0c",
+        "tcb_status": "UpToDate",
+        "advisory_ids": [],
+        "debug_mode": false,
+        "nonce_echoed": true,
+        "report_data_binds_nonce_and_signer": true,
+        "tls_fingerprint_matches_connection": false,
+        "app_compose_sha256": "e4b83d924284eece9b972d8e18bd88dac4dd529031b00311ef5044eaa60ba8d9",
+        "config_measurement_matches": true,
+        "rtmr3_matches_event_log": true,
+        "quote": {
+          "tee_tcb_svn": "0d010400000000000000000000000000",
+          "mr_seam": "489e585f1c54bc5a02066c8c6ec21619ff0334ec6f21e07e2a35202c59183789c8057e7d97dd591bb08314b185819e72",
+          "mr_signer_seam": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "seam_attributes": "0000000000000000",
+          "td_attributes": "0000001000000000",
+          "xfam": "e702060000000000",
+          "mr_td": "e107136c99ae1745ab299e9462927890b7b1c984d5ef53fa5830584ad4246db663fdf96563b913e9e2471906b26f7aae",
+          "mr_config_id": "01e4b83d924284eece9b972d8e18bd88dac4dd529031b00311ef5044eaa60ba8d9000000000000000000000000000000",
+          "mr_owner": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "mr_owner_config": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "rt_mr0": "bc122d143ab768565ba5c3774ff5f03a63c89a4df7c1f5ea38d3bd173409d14f8cbdcc36d40e703cccb996a9d9687590",
+          "rt_mr1": "786417fa26b5d90d1289025506055e511ff09fd608f4727bb3cf159279a52af23117b6248024d0b186aceabebf6f86ec",
+          "rt_mr2": "41800152afda682372d33b484e357002e2b179f64b7882e0f0529ad2373ad93898a3b4d3ffb9a433f406b986d4f4f291",
+          "rt_mr3": "d5970872501b2684001d4724208d2acce09603e43014fa8bd0984ba70b53685d69ee3c2b78345d510720b31c8a1f8167",
+          "report_data": "0e8c650a50c27cd44c00b44e3a2610b1fee43e10097ba040ed3a0af67357a6823dfff4824f23eb98ce8a52898339394db9898307c1a17323ebc5e062ee44fa5a"
+        },
+        "model_name": "z-ai/glm-5.3-flash"
+      },
+      {
+        "app_id": "2c0a0c96cb6dbd659bf1446e2f3fce58172ff91b",
+        "signing_algo": "ecdsa",
+        "signing_address": "0x3b753b4406613c5e70ae640508632b600424fa0c",
+        "tcb_status": "UpToDate",
+        "advisory_ids": [],
+        "debug_mode": false,
+        "nonce_echoed": true,
+        "report_data_binds_nonce_and_signer": true,
+        "tls_fingerprint_matches_connection": false,
+        "app_compose_sha256": "fb81c6f2c1eae762ece8912e1f50e80697964cc93a112da03834369fa1ab5b0b",
+        "config_measurement_matches": true,
+        "rtmr3_matches_event_log": true,
+        "quote": {
+          "tee_tcb_svn": "0b010400000000000000000000000000",
+          "mr_seam": "7bf063280e94fb051f5dd7b1fc59ce9aac42bb961df8d44b709c9b0ff87a7b4df648657ba6d1189589feab1d5a3c9a9d",
+          "mr_signer_seam": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "seam_attributes": "0000000000000000",
+          "td_attributes": "0000001000000000",
+          "xfam": "e702060000000000",
+          "mr_td": "e107136c99ae1745ab299e9462927890b7b1c984d5ef53fa5830584ad4246db663fdf96563b913e9e2471906b26f7aae",
+          "mr_config_id": "01fb81c6f2c1eae762ece8912e1f50e80697964cc93a112da03834369fa1ab5b0b000000000000000000000000000000",
+          "mr_owner": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "mr_owner_config": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "rt_mr0": "bc122d143ab768565ba5c3774ff5f03a63c89a4df7c1f5ea38d3bd173409d14f8cbdcc36d40e703cccb996a9d9687590",
+          "rt_mr1": "786417fa26b5d90d1289025506055e511ff09fd608f4727bb3cf159279a52af23117b6248024d0b186aceabebf6f86ec",
+          "rt_mr2": "41800152afda682372d33b484e357002e2b179f64b7882e0f0529ad2373ad93898a3b4d3ffb9a433f406b986d4f4f291",
+          "rt_mr3": "8d21721fd1dc8ba276ae849489b26e340377673d27193d9d27bdde868b8982000532d202815cdc367df6fdb78399dbf8",
+          "report_data": "93ad0179322c3b13a028a4ee9bee395f5e025f8ad24588d0940a000af2281f883dfff4824f23eb98ce8a52898339394db9898307c1a17323ebc5e062ee44fa5a"
+        },
+        "model_name": "z-ai/glm-5.3-flash"
+      }
+    ],
+    "nras": [
+      {
+        "candidate_index": 0,
+        "ok": true
+      },
+      {
+        "candidate_index": 1,
+        "ok": true
+      },
+      {
+        "candidate_index": 2,
+        "ok": true
+      },
+      {
+        "candidate_index": 3,
+        "ok": true
+      }
+    ],
+    "ita": {
+      "signature_valid": true,
+      "kid": "5ac4e2f5e5cc7cea60de47678d7a983f361cbf2940d27d861d1196e95dae4e5f50ecbe2381817bc45926dba539de7b93.PS384",
+      "iss": "https://portal.trustauthority.intel.com",
+      "iat": 1795542513,
+      "nbf": 1795542513,
+      "exp": 1795542813,
+      "expired": false,
+      "jti": "e8f4117e-c11e-4571-ac34-3964778c11f4",
+      "token_sha256": "24f4e90084cc0896178bf2f55ef1b70f067dd51f025bc307de07342130a9b9d8",
+      "cross_checks": {
+        "caller_nonce_matches": true,
+        "signer_matches": true,
+        "signing_algo_matches": true,
+        "mrtd_matches_quote": true,
+        "mrseam_matches_quote": true,
+        "mrconfigid_matches_quote": true,
+        "report_data_matches_quote": false,
+        "rtmr3_matches_quote": false,
+        "same_quote": false,
+        "attester_tcb_status": "UpToDate",
+        "debuggable": false,
+        "attester_type": "TDX"
+      }
+    }
+  },
+  "ok": true,
+  "report_sha256": "4a2fc2132f65973e47e731e398aa00d0897e9e2bb14be6ba7eb9babaf1fe32d8",
+  "tls_fingerprint_observed": "73862c254372091cc6895b900111503860694f8916ebf0c63b18d245ba8ba5ad",
+  "signer_inventory": {
+    "model_candidates": 4,
+    "unique_signing_addresses": 1,
+    "signing_algorithms": [
+      "ecdsa"
+    ],
+    "unique_measured_configurations": 3,
+    "signing_addresses": [
+      "0x3b753b4406613c5e70ae640508632b600424fa0c"
+    ],
+    "app_compose_sha256": [
+      "d7871cce53c04f1ceae14ec277e2c33b83d275ce0ee8158bac3362113d67f19b",
+      "e4b83d924284eece9b972d8e18bd88dac4dd529031b00311ef5044eaa60ba8d9",
+      "fb81c6f2c1eae762ece8912e1f50e80697964cc93a112da03834369fa1ab5b0b"
+    ]
+  },
+  "tamper_tests": [
+    {
+      "mutation": "change the nonce by one hex character",
+      "expected_check": "report_data binding",
+      "caught": true,
+      "detail": "True"
+    },
+    {
+      "mutation": "flip one hex character inside the TDX quote",
+      "expected_check": "DCAP signature",
+      "caught": true,
+      "detail": "ValueError: Failed to get collateral: Failed to extract certificates from PEM chain"
+    },
+    {
+      "mutation": "append a space to app_compose",
+      "expected_check": "MRCONFIGID measurement",
+      "caught": true,
+      "detail": "True"
+    },
+    {
+      "mutation": "flip one hex character in an event payload",
+      "expected_check": "RTMR3 replay",
+      "caught": true,
+      "detail": "True"
+    },
+    {
+      "mutation": "claim the report came over example.com's TLS channel",
+      "expected_check": "TLS binding",
+      "caught": true,
+      "detail": "True"
+    }
+  ]
+}
